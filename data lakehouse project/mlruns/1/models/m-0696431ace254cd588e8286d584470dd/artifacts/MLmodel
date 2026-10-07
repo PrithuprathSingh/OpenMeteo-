@@ -1,0 +1,24 @@
+artifact_path: file:///C:/Users/prithuprath singh/OneDrive/Desktop/data lakehouse
+  project/mlruns/1/models/m-0696431ace254cd588e8286d584470dd/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.5
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.6.1
+    skops_trusted_types: null
+mlflow_version: 3.17.0
+model_id: m-0696431ace254cd588e8286d584470dd
+model_size_bytes: 26055
+model_uuid: m-0696431ace254cd588e8286d584470dd
+prompts: null
+run_id: 343342d74ca7437c98071010e662de3f
+utc_time_created: '2026-10-07 13:14:44.150017'
